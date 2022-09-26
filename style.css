@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+*{
+    color: white;
+    background-color:#212121;
+    font-family: 'Share Tech Mono', monospace;
+}
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav
+{
+    text-align:left;
+    flex:1;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    text-align: center;
+}
+.btn{
+    border-radius: 10%;
+    border-color: white;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.profile{
+  border-radius: 8px;
+  padding: 20px;
+  width: 20%;
+  height: 20%;
+  transform:rotate(-4deg);
+  transition: all 0.5s;
+}
+.profile:hover{
+    transform: scale(1.1);
+}
+.tag{
+    font-size: 2cm;
+}
+.heading{
+    color: #535353;
+    padding: 2rem;
+}
+.sz{
+    width: 4%;
+}
+.but{
+    margin-top: 3rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mov{
+    width: 400px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    cursor: pointer;
+    background-color: #535353;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.h{
+    margin: 25px;
+}
+.area{
+    width: 175%;
+    height: 50%;
+}
+@media screen and (max-width: 483px){
+    .container{
+        height: auto;
+    }
+}
