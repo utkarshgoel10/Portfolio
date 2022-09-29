@@ -86,7 +86,7 @@ nav ul li a {
 .h {
   margin: 25px;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 800px) {
   .container {
     height: auto;
   }
