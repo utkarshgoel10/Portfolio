@@ -47,7 +47,7 @@ nav ul li a {
 .profile {
   margin-top: 2rem;
   width: 20%;
-  height: 20%;
+  
   transform: rotate(-4deg);
   transition: all 0.5s;
 }
@@ -108,6 +108,7 @@ nav ul li a {
   .hi {
     font-size: 16px;
   }
+  
 }
 @media screen and (max-width: 900px) {
   nav ul li {
@@ -115,5 +116,13 @@ nav ul li a {
     flex-direction: column;
     margin-left: 50px;
     padding: 0.5rem;
+  }
+  .profile {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .profile {
+    width: 50%;
   }
 }
