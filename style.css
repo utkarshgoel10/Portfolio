@@ -8,9 +8,13 @@
   height: 12%;
   display: flex;
   align-items: center;
+  
 }
 nav {
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
   flex: 1;
 }
 nav ul li {
@@ -22,6 +26,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 13px;
 }
+
 .container {
   margin: auto;
   width: 80%;
@@ -33,9 +38,6 @@ nav ul li a {
   border-color: white;
   padding: 0.5rem;
   cursor: pointer;
-}
-.btn2 {
-  margin-left: 25rem;
 }
 .btn:hover {
   background-color: white;
@@ -105,5 +107,13 @@ nav ul li a {
   }
   .hi {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 0.5rem;
   }
 }
